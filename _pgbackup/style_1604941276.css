@@ -1052,9 +1052,13 @@ nav .nav-item::before {
 }
 
 .slide2 p,
-HEAD.slide2 sub,
+<<<<<<< HEAD.slide2 sub,
 .slide3 li {
-    font-size: 0.97em;
+    /* font-size: 0.97em */
+    =======.slide2 sub,
+    .slide3 li {
+        font-size: 0.98em;
+        >>>>>>>: 1.8rem;
         font-weight: 500;
         letter-spacing: 1.2px;
 
@@ -1240,16 +1244,14 @@ HEAD.slide2 sub,
             font-size: 0.9em !important;
         }
     }
-
+}
 
 a {
     color: #002EA5;
 }
 
 .slide2 p {
-    font-size: 0.95em;
-    line-height: 25px;
-    font-family: roboto;
-    letter-spacing: 2px;
+    font-size: 0.9em;
+    font-family: robotto;
     text-align: justify;
 }

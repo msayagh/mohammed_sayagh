@@ -400,8 +400,8 @@ button::after {
 
 .slide2 .titre-conteneur {
     left: 0;
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
 }
 
 .slide2 .titre-conteneur ul,
@@ -443,7 +443,6 @@ a:focus {
     -ms-flex-direction: row;
     flex-direction: row;
     width: 100%;
-    left: 0;
     cursor: pointer;
 }
 
@@ -596,8 +595,8 @@ label {
 
 .nav-item a:link {
     color: #fff;
-    font-size: 0.95em;
-    letter-spacing: 2px;
+
+    /* left: 18px */
     background-color: transparent;
     text-decoration: none;
 }
@@ -862,7 +861,6 @@ label {
     .contact-info-md {
         /* background-color: rgba(35, 53, 89,0) !important */
         overflow-y: hidden !important;
-        overflow-x: inherit;
         max-height: auto !important;
         max-height: inherit !important;
     }
@@ -932,8 +930,8 @@ nav .nav-item::before {
 }
 
 .col-info {
-    border-left: 4px solid #EAEAEA;
-    padding-left: 0.6rem;
+    border-left: 3px solid #EAEAEA;
+    padding-left: 0.7rem;
 }
 
 @media only screen and (min-width:991px) {
@@ -1052,9 +1050,13 @@ nav .nav-item::before {
 }
 
 .slide2 p,
-HEAD.slide2 sub,
+<<<<<<< HEAD.slide2 sub,
 .slide3 li {
-    font-size: 0.97em;
+    /* font-size: 0.97em */
+    =======.slide2 sub,
+    .slide3 li {
+        font-size: 0.98em;
+        >>>>>>>: 1.8rem;
         font-weight: 500;
         letter-spacing: 1.2px;
 
@@ -1240,16 +1242,4 @@ HEAD.slide2 sub,
             font-size: 0.9em !important;
         }
     }
-
-
-a {
-    color: #002EA5;
-}
-
-.slide2 p {
-    font-size: 0.95em;
-    line-height: 25px;
-    font-family: roboto;
-    letter-spacing: 2px;
-    text-align: justify;
 }
