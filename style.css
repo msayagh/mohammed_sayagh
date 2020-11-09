@@ -400,6 +400,7 @@ button::after {
 
 .slide2 .titre-conteneur {
     left: 0;
+    max-height: 90vh;
     padding: auto;
     margin: auto;
 }

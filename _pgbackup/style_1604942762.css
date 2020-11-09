@@ -400,14 +400,14 @@ button::after {
 
 .slide2 .titre-conteneur {
     left: 0;
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
 }
 
 .slide2 .titre-conteneur ul,
 .titre .col-lg-12 {
     opacity: 1;
-    padding: 0.5em 0em;
+    padding: 0.7em 0em;
     margin: 0;
     width: 100%;
     color: #EAEAEA;
@@ -443,6 +443,7 @@ a:focus {
     -ms-flex-direction: row;
     flex-direction: row;
     width: 100%;
+    left: 0;
     cursor: pointer;
 }
 
@@ -472,8 +473,7 @@ a:focus {
     border: none;
     background: none;
     color: #fff;
-
-    /* left: 10px */
+    left: 0;
     opacity: 1;
     animation-duration: 1s;
 }
@@ -494,7 +494,7 @@ a:focus {
 
 /* reseau sociaux */
 /* TEXT DECO */
-p,
+/* p,
 sub,
 li {
     font-family: Roboto;
@@ -502,9 +502,8 @@ li {
     list-style: none;
     text-align: justify;
 
-    /* line-height: 1.6rem !important */
-}
-
+    ||*| line-height: 1.6rem !important |*||
+} */
 strong {
     font-family: Roboto Condensed;
     text-align: left;
@@ -574,10 +573,9 @@ label {
     background-size: contain;
 }
 
-.main a:link {
+/* .main a:link {
     color: #0D4097;
-}
-
+} */
 .main a:visited {
     color: #002EA5;
     background-color: transparent;
@@ -598,7 +596,8 @@ label {
 
 .nav-item a:link {
     color: #fff;
-    left: 18px;
+    font-size: 0.95em;
+    letter-spacing: 2px;
     background-color: transparent;
     text-decoration: none;
 }
@@ -861,9 +860,10 @@ label {
 @media only screen and (min-width:991px) {
     .backgroud-menu-xs,
     .contact-info-md {
-        /* background-color: rgba(35, 53, 89,0) !important */
         overflow-y: hidden !important;
-        max-height: auto !important;
+        overflow-x: inherit;
+
+        /* max-height: auto !important */
         max-height: inherit !important;
     }
 }
@@ -932,8 +932,8 @@ nav .nav-item::before {
 }
 
 .col-info {
-    border-left: 3px solid #EAEAEA;
-    padding-left: 0.7rem;
+    border-left: 4px solid #EAEAEA;
+    padding-left: 0.6rem;
 }
 
 @media only screen and (min-width:991px) {
@@ -1052,10 +1052,9 @@ nav .nav-item::before {
 }
 
 .slide2 p,
-.slide2 sub,
+HEAD.slide2 sub,
 .slide3 li {
-    font-size: 0.98em;
-    line-height: 1.8rem;
+    font-size: 0.97em;
     font-weight: 500;
     letter-spacing: 1.2px;
 
@@ -1240,4 +1239,16 @@ h2 {
     .slide2 ul .nav-link {
         font-size: 0.9em !important;
     }
+}
+
+a {
+    color: #002EA5;
+}
+
+.slide2 p {
+    font-size: 0.95em;
+    line-height: 25px;
+    font-family: roboto;
+    letter-spacing: 2px;
+    text-align: justify;
 }
