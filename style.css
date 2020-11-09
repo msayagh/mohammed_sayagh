@@ -365,7 +365,8 @@ button::after {
 @media screen and (max-width: 991px) {
     .container-fluid {
         background: #eeeeee !important;
-        overflow: visible;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
         height: auto;
         min-height: inherit;
     }
@@ -374,7 +375,8 @@ button::after {
         /* left: 0 !important */
         min-height: auto;
         padding: 10vh 0 10vh 0;
-        overflow-y: visible !important;
+        overflow-y: scroll !important;
+        -webkit-overflow-scrolling: touch;
         z-index: 99999;
         background-color: #eeeeee;
     }
@@ -757,6 +759,7 @@ label {
         -ms-flex-align: end;
         align-items: flex-end;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         height: 100%;
         background-color: #eeeeee;
     }
@@ -1008,9 +1011,10 @@ nav .nav-item::before {
     .contentBoxParagraphe {
         max-height: 100vh;
         min-height: 90vh;
-        padding: 5rem 0rem;
+        padding: 5rem 0;
         padding-left: 5rem;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         margin-right: 0;
     }
 }
@@ -1258,7 +1262,7 @@ a {
     font-weight: 400;
 }
 
-@media only screen and (max-width:1299px) {
+@media only screen and (max-width:1299px) and (min-width:1023px) {
     .cadreImage {
         min-height: 60vh;
         display: flex;
@@ -1270,5 +1274,13 @@ a {
 @media only screen and (max-width:1200px) {
     cadreImage {
         min-height: 85vh !important;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .cadreImage {
+        display: flex;
+        min-height: 40vh;
+        align-items: flex-end;
     }
 }
