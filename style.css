@@ -317,7 +317,7 @@ nav .nav-list .nav-item:nth-child(3) .nav-link {
     .nav-item {
         color: #EAEAEA;
         font-weight: 500;
-        padding: 2% 0 !important;
+        padding: 2% 1% !important;
         cursor: pointer;
     }
 
