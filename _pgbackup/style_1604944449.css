@@ -1107,7 +1107,6 @@ HEAD.slide2 sub,
 
 @media only screen and (max-width:985px) {
     .padding {
-        padding-top: 6rem !important;
         padding-bottom: 6rem !important;
     }
 }
@@ -1259,16 +1258,9 @@ a {
     text-align: justify;
 }
 
-@media only screen and (max-width:1299px) {
+@media only screen and (min-width:1199px) {
     .cadreImage {
-        min-height: 60vh;
-        display: flex;
-        align-items: flex-end;
-    }
-}
-
-@media only screen and (max-width:1200px) {
-    cadreImage {
-        min-height: 85vh !important;
+        padding-top: 1% !important;
+        padding-bottom: 1% !important;
     }
 }
