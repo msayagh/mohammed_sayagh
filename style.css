@@ -516,7 +516,7 @@ em {
     font-style: normal;
 
     /* letter-spacing: 1.6px */
-    text-transform: capitalize;
+    /* text-transform: capitalize */
 }
 
 mark {
@@ -1066,7 +1066,6 @@ HEAD.slide2 sub,
     /* padding-bottom: 0 */
     color: #262626 !important;
     font-family: 'Roboto', sans-serif;
-    text-transform: lowercase;
     margin: 11px 0;
 }
 
@@ -1256,6 +1255,7 @@ a {
     font-family: roboto;
     letter-spacing: 2px;
     text-align: justify;
+    font-weight: 400;
 }
 
 @media only screen and (max-width:1299px) {
