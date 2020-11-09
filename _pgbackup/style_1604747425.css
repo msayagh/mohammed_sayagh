@@ -377,6 +377,7 @@ button::after {
         overflow-y: visible !important;
         z-index: 99999;
         background-color: #eeeeee;
+        background-color: #eeeeee;
     }
 
     .contact-info-container {
@@ -468,6 +469,9 @@ a:focus {
     height: 100vh;
 }
 
+.slide2 li {
+}
+
 .slide2 .nav-link.active {
     border: none;
     background: none;
@@ -498,10 +502,10 @@ p,
 sub,
 li {
     font-family: Roboto;
-    font-size: 0.84rem;
+    font-size: 0.85rem;
     list-style: none;
-    text-align: justify;
 
+    /* text-align: justify */
     /* line-height: 1.6rem !important */
 }
 
@@ -739,7 +743,7 @@ label {
 @media only screen and (max-width: 991px) {
     .container1-md {
         width: 100%;
-        padding-top: 40vh;
+        padding-top: 30vh;
     }
 
     .navigation-md {
@@ -765,7 +769,7 @@ label {
 @media only screen and (max-width: 575px) {
     .height-sm {
         height: auto;
-        padding-top: 10vh;
+        padding-top: 20vh;
     }
 
     .fleche {
@@ -925,7 +929,7 @@ nav .nav-item::before {
 @media only screen and (min-width:991px)  {
     .barre-bas {
         height: 5vh;
-        position: fixed !important;
+        position: fixed;
         width: 100%;
         z-index: 99999;
     }
@@ -1054,7 +1058,7 @@ nav .nav-item::before {
 .slide2 p,
 .slide2 sub,
 .slide3 li {
-    font-size: 0.98em;
+    font-size: 0.97em;
     line-height: 1.8rem;
     font-weight: 500;
     letter-spacing: 1.2px;
@@ -1136,7 +1140,7 @@ nav .nav-item::before {
     .padding p,
     .padding sub,
     .padding li {
-        font-size: 0.99em !important;
+        font-size: 0.8em !important;
     }
 }
 
@@ -1227,17 +1231,5 @@ h2 {
 
     h1 {
         font-size: 1.5rem !important;
-    }
-}
-
-@media only screen and (min-width:980px) {
-    .heightMax {
-        min-height: 100vh;
-    }
-}
-
-@media only screen and (max-width:1200px) {
-    .slide2 ul .nav-link {
-        font-size: 0.9em !important;
     }
 }
