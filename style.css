@@ -1136,7 +1136,7 @@ nav .nav-item::before {
     .padding p,
         .padding sub,
         .padding li {
-        font-size: 0.99em !important;
+        font-size: 0.95em !important;
     }
 }
 
