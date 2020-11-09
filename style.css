@@ -1107,8 +1107,7 @@ HEAD.slide2 sub,
 
 @media only screen and (max-width:985px) {
     .padding {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
+        padding: 6rem 0 6rem 0 !important;
     }
 }
 
@@ -1206,7 +1205,7 @@ h2 {
     }
 
     .hvr-forward img {
-        width: 100% !important;
+        width: 80% !important;
         align-items: left !important;
     }
 }

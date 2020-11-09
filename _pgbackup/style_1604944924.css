@@ -400,6 +400,7 @@ button::after {
 
 .slide2 .titre-conteneur {
     left: 0;
+    max-height: 90vh;
     padding: auto;
     margin: auto;
 }
@@ -940,7 +941,11 @@ nav .nav-item::before {
     .container1-md {
         position: relative !important;
         height: 100vh;
+        display: flex !important;
         width: 100%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: row;
     }
 
     -fixed -lg {
@@ -1102,6 +1107,7 @@ HEAD.slide2 sub,
 
 @media only screen and (max-width:985px) {
     .padding {
+        padding-top: 6rem !important;
         padding-bottom: 6rem !important;
     }
 }
@@ -1135,7 +1141,7 @@ HEAD.slide2 sub,
     .padding p,
     .padding sub,
     .padding li {
-        font-size: 0.99em !important;
+        font-size: 0.87em !important;
     }
 }
 
@@ -1200,7 +1206,7 @@ h2 {
     }
 
     .hvr-forward img {
-        width: 100% !important;
+        width: 80% !important;
         align-items: left !important;
     }
 }
@@ -1251,4 +1257,18 @@ a {
     font-family: roboto;
     letter-spacing: 2px;
     text-align: justify;
+}
+
+@media only screen and (max-width:1299px) {
+    .cadreImage {
+        min-height: 60vh;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    cadreImage {
+        min-height: 85vh !important;
+    }
 }
