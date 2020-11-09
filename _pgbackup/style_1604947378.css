@@ -365,7 +365,8 @@ button::after {
 @media screen and (max-width: 991px) {
     .container-fluid {
         background: #eeeeee !important;
-        overflow: visible;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
         height: auto;
         min-height: inherit;
     }
@@ -374,7 +375,8 @@ button::after {
         /* left: 0 !important */
         min-height: auto;
         padding: 10vh 0 10vh 0;
-        overflow-y: visible !important;
+        overflow-y: scroll !important;
+        -webkit-overflow-scrolling: touch;
         z-index: 99999;
         background-color: #eeeeee;
     }
@@ -516,7 +518,7 @@ em {
     font-style: normal;
 
     /* letter-spacing: 1.6px */
-    text-transform: capitalize;
+    /* text-transform: capitalize */
 }
 
 mark {
@@ -757,6 +759,7 @@ label {
         -ms-flex-align: end;
         align-items: flex-end;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         height: 100%;
         background-color: #eeeeee;
     }
@@ -1008,9 +1011,10 @@ nav .nav-item::before {
     .contentBoxParagraphe {
         max-height: 100vh;
         min-height: 90vh;
-        padding: 5rem 0rem;
+        padding: 5rem 0;
         padding-left: 5rem;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         margin-right: 0;
     }
 }
@@ -1066,7 +1070,6 @@ HEAD.slide2 sub,
     /* padding-bottom: 0 */
     color: #262626 !important;
     font-family: 'Roboto', sans-serif;
-    text-transform: lowercase;
     margin: 11px 0;
 }
 
@@ -1107,7 +1110,7 @@ HEAD.slide2 sub,
 
 @media only screen and (max-width:985px) {
     .padding {
-        padding-bottom: 6rem !important;
+        padding: 6rem 0 6rem 0 !important;
     }
 }
 
@@ -1205,7 +1208,7 @@ h2 {
     }
 
     .hvr-forward img {
-        width: 100% !important;
+        width: 80% !important;
         align-items: left !important;
     }
 }
@@ -1256,17 +1259,28 @@ a {
     font-family: roboto;
     letter-spacing: 2px;
     text-align: justify;
+    font-weight: 400;
 }
 
-@media only screen and (min-width:1199px) {
+@media only screen and (max-width:1299px) and (min-width:1023px) {
     .cadreImage {
-        padding-top: 1% !important;
-        padding-bottom: 1% !important;
+        min-height: 60vh;
+        display: flex;
+        padding-bottom: 1vh;
+        align-items: flex-end;
     }
 }
 
 @media only screen and (max-width:1200px) {
     cadreImage {
-        max-height: 85vh;
+        min-height: 85vh !important;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .cadreImage {
+        display: flex;
+        min-height: 40vh;
+        align-items: flex-end;
     }
 }

@@ -365,7 +365,8 @@ button::after {
 @media screen and (max-width: 991px) {
     .container-fluid {
         background: #eeeeee !important;
-        overflow: visible;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
         height: auto;
         min-height: inherit;
     }
@@ -374,7 +375,8 @@ button::after {
         /* left: 0 !important */
         min-height: auto;
         padding: 10vh 0 10vh 0;
-        overflow-y: visible !important;
+        overflow-y: scroll !important;
+        -webkit-overflow-scrolling: touch;
         z-index: 99999;
         background-color: #eeeeee;
     }
@@ -516,7 +518,7 @@ em {
     font-style: normal;
 
     /* letter-spacing: 1.6px */
-    text-transform: capitalize;
+    /* text-transform: capitalize */
 }
 
 mark {
@@ -739,7 +741,7 @@ label {
 @media only screen and (max-width: 991px) {
     .container1-md {
         width: 100%;
-        padding-top: 40vh;
+        padding-top: 20vh;
     }
 
     .navigation-md {
@@ -757,6 +759,7 @@ label {
         -ms-flex-align: end;
         align-items: flex-end;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         height: 100%;
         background-color: #eeeeee;
     }
@@ -937,14 +940,14 @@ nav .nav-item::before {
     padding-left: 0.6rem;
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:991px) {
     .container1-md {
         position: relative !important;
-        height: 100vh;
+        height: 100vh !important;
         display: flex !important;
         width: 100%;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
         flex-direction: row;
     }
 
@@ -998,7 +1001,7 @@ nav .nav-item::before {
 
 @media only screen and (max-width:991px) {
     .backgroundMobile {
-        background: -webkit-linear-gradient(270deg, rgb(35, 53, 89) 40rem, #eeeeee 40rem);
+        background: -webkit-linear-gradient(270deg, rgb(35, 53, 89) 35rem, #eeeeee 35rem);
         background-color: #eeeeee;
         min-height: auto;
     }
@@ -1008,9 +1011,10 @@ nav .nav-item::before {
     .contentBoxParagraphe {
         max-height: 100vh;
         min-height: 90vh;
-        padding: 5rem 0rem;
+        padding: 5rem 0;
         padding-left: 5rem;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
         margin-right: 0;
     }
 }
@@ -1066,7 +1070,6 @@ HEAD.slide2 sub,
     /* padding-bottom: 0 */
     color: #262626 !important;
     font-family: 'Roboto', sans-serif;
-    text-transform: lowercase;
     margin: 11px 0;
 }
 
@@ -1107,7 +1110,7 @@ HEAD.slide2 sub,
 
 @media only screen and (max-width:985px) {
     .padding {
-        padding-bottom: 6rem !important;
+        padding: 6rem 0 6rem 0 !important;
     }
 }
 
@@ -1205,7 +1208,7 @@ h2 {
     }
 
     .hvr-forward img {
-        width: 100% !important;
+        width: 80% !important;
         align-items: left !important;
     }
 }
@@ -1247,6 +1250,7 @@ h2 {
 }
 
 a {
+    cursor: pointer;
     color: #002EA5;
 }
 
@@ -1256,11 +1260,28 @@ a {
     font-family: roboto;
     letter-spacing: 2px;
     text-align: justify;
+    font-weight: 400;
 }
 
-@media only screen and (min-width:1199px) {
+@media only screen and (max-width:1299px) and (min-width:1023px) {
     .cadreImage {
-        padding-top: 1% !important;
-        padding-bottom: 1% !important;
+        min-height: 60vh;
+        display: flex;
+        padding-bottom: 1vh;
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    cadreImage {
+        min-height: 85vh !important;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .cadreImage {
+        display: flex;
+        min-height: 40vh;
+        align-items: flex-end;
     }
 }
