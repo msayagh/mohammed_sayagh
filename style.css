@@ -1262,6 +1262,7 @@ a {
     .cadreImage {
         min-height: 60vh;
         display: flex;
+        padding-bottom: 1vh;
         align-items: flex-end;
     }
 }

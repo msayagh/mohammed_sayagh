@@ -516,7 +516,7 @@ em {
     font-style: normal;
 
     /* letter-spacing: 1.6px */
-    text-transform: capitalize;
+    /* text-transform: capitalize */
 }
 
 mark {
@@ -943,7 +943,7 @@ nav .nav-item::before {
         height: 100vh;
         display: flex !important;
         width: 100%;
-        align-items: flex-end !important;
+        align-items: flex-end;
         justify-content: flex-end;
         flex-direction: row;
     }
@@ -1066,7 +1066,6 @@ HEAD.slide2 sub,
     /* padding-bottom: 0 */
     color: #262626 !important;
     font-family: 'Roboto', sans-serif;
-    text-transform: lowercase;
     margin: 11px 0;
 }
 
@@ -1107,7 +1106,7 @@ HEAD.slide2 sub,
 
 @media only screen and (max-width:985px) {
     .padding {
-        padding-bottom: 6rem !important;
+        padding: 6rem 0 6rem 0 !important;
     }
 }
 
@@ -1205,7 +1204,7 @@ h2 {
     }
 
     .hvr-forward img {
-        width: 100% !important;
+        width: 80% !important;
         align-items: left !important;
     }
 }
@@ -1256,4 +1255,20 @@ a {
     font-family: roboto;
     letter-spacing: 2px;
     text-align: justify;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:1299px) {
+    .cadreImage {
+        min-height: 60vh;
+        display: flex;
+        padding-bottom: 5vh;
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    cadreImage {
+        min-height: 85vh !important;
+    }
 }
