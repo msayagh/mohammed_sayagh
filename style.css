@@ -1212,7 +1212,8 @@ h2 {
 
 @media only screen and (max-width:979px) {
     .padding p {
-        max-width: 95% !important;
+        line-height: 1.8rem !important;
+        max-width: 75% !important;
     }
 
     .hvr-forward img {
