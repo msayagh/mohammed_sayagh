@@ -13,7 +13,7 @@ script:
   - npm run generate
   
 before_deploy:
-  - cp -r assests/pdf dist/pdf
+  - cp -r assets/pdf dist/pdf
   
 deploy:
   provider: pages
