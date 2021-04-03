@@ -2,8 +2,8 @@
   section
     h2 {{ reviewerFor.titre }}
     separateur
-    .content
-      vText(v-for="(reviewerForPara, id) in reviewerFor.paragraphe" :key="id")
+    ul.content
+      li(v-for="(reviewerForPara, id) in reviewerFor.paragraphe" :key="id")
         a(:href="reviewerForPara.link" target="_blank")
           |  {{ reviewerForPara.text }} 
 </template>

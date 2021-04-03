@@ -16,7 +16,7 @@ You can directly use them in pages and other components without the need to impo
 - `<ContentTeaching>` | `<content-teaching>` (components/content/teaching.vue)
 - `<ContentTechnicalReports>` | `<content-technical-reports>` (components/content/technicalReports.vue)
 - `<ContentWorkshops>` | `<content-workshops>` (components/content/workshops.vue)
-- `<MainHome>` | `<main-home>` (components/main/home.vue)
 - `<UiElementMenuMobile>` | `<ui-element-menu-mobile>` (components/uiElement/menuMobile.vue)
 - `<UiElementPopupInfo>` | `<ui-element-popup-info>` (components/uiElement/popupInfo.vue)
 - `<UiElementSeparateur>` | `<ui-element-separateur>` (components/uiElement/separateur.vue)
+- `<MainHome>` | `<main-home>` (components/main/home.vue)

@@ -29,9 +29,6 @@
   "ContentWorkshops": {
     "description": "Auto imported from components/content/workshops.vue"
   },
-  "MainHome": {
-    "description": "Auto imported from components/main/home.vue"
-  },
   "UiElementMenuMobile": {
     "description": "Auto imported from components/uiElement/menuMobile.vue"
   },
@@ -40,5 +37,8 @@
   },
   "UiElementSeparateur": {
     "description": "Auto imported from components/uiElement/separateur.vue"
+  },
+  "MainHome": {
+    "description": "Auto imported from components/main/home.vue"
   }
 }
