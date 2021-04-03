@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 /* Plugins */
 
 import nuxt_plugin_plugin_6249ff4a from 'nuxt_plugin_plugin_6249ff4a' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_googleanalytics_0fa472c6 from 'nuxt_plugin_googleanalytics_0fa472c6' // Source: ./google-analytics.js (mode: 'client')
 import nuxt_plugin_vuetastyburgers_2db3a250 from 'nuxt_plugin_vuetastyburgers_2db3a250' // Source: ../plugins/vue-tasty-burgers.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -209,6 +210,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_6249ff4a === 'function') {
     await nuxt_plugin_plugin_6249ff4a(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_googleanalytics_0fa472c6 === 'function') {
+    await nuxt_plugin_googleanalytics_0fa472c6(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuetastyburgers_2db3a250 === 'function') {

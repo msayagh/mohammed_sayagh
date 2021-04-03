@@ -40,7 +40,7 @@
         .image.sous-container{
           @apply grid grid-cols-12 grid-rows-1;
           .image.cadre{
-            @apply col-start-1 col-span-10 sm:col-span-7 lg:col-start-3 lg:col-span-9;
+            @apply col-start-1 col-span-10 sm:col-span-7 lg:col-start-3 xl:col-start-2 2xl:col-start-3 lg:col-span-9;
           }
           @apply sm:-ml-8 lg:ml-0;
         }
@@ -50,7 +50,7 @@
         @apply max-lg:mb-12 ;
         @apply grid grid-cols-12 grid-rows-1;
         .containerElement{
-          @apply col-start-1 lg:col-start-2 xl:col-start-2 col-span-12 lg:col-span-10 xl:col-span-10;
+          @apply col-start-1 lg:col-start-2 xl:col-start-1 2xl:col-start-2 col-span-12 lg:col-span-10 xl:col-span-11 2xl:col-span-10;
           @apply text-justify;
           @apply md:pt-6 xl:pt-0;
           h3 {
