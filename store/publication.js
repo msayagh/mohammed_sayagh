@@ -42,7 +42,7 @@ const publications = {
                               },
                               {
                                     text: "Too many images on DockerHub! How different are images for the same system?",
-                                    link: "https://msayagh.github.io/pdf/TSE2020_configminer.pdf",
+                                    link: "https://msayagh.github.io/pdf/EMSE2020_Dockerhub.pdf",
                               },
                               {
                                     text: ", Empirical Software Engineering (EMSE)."
@@ -121,11 +121,11 @@ const publications = {
                                     text: "Sayagh, M., Kerazi, N., Adams, B. And Petrillo, F.(2018)."
                               },
                               {
-                                    text: "software configuration engineering in practice -interviews, survey, and systematic literature review",
-                                    link: "#",
+                                    text: "Software configuration engineering in practice - interviews, survey, and systematic literature review",
+                                    link: "https://msayagh.github.io/pdf/TSE2018.pdf",
                               },
                               {
-                                    text: "transactions on software engineering(tse)."
+                                    text: "Transactions on software engineering(TSE)."
                               },
                               {
                                     text: "bibtex",
@@ -137,8 +137,8 @@ const publications = {
                                     text: "Sayagh, M., Dong, Z., Andrzejak, A., And Adams, B.(2017)."
                               },
                               {
-                                    text: "does the choice of configuration framework matter for developers?",
-                                    link: "#",
+                                    text: "Does the choice of configuration framework matter for developers?",
+                                    link: "https://msayagh.github.io/pdf/SCAM2017.pdf",
                               },
                               {
                                     text: ", in proceedings of the 17th ieee international working conference on source code analysis and manipulation, scam (shanghai, china). (acceptance ratio: 14/31=45%) "
@@ -153,8 +153,8 @@ const publications = {
                                     text: "Sayagh, M., Kerzaki, N., Adams, B.(2017)."
                               },
                               {
-                                    text: "on cross-stack configuration errors",
-                                    link: "#",
+                                    text: "On cross-stack configuration errors",
+                                    link: "https://msayagh.github.io/pdf/ICSE2017.pdf",
 
                               },
                               {
@@ -171,8 +171,8 @@ const publications = {
                                     text: "Hassan, S., King, Z., Hafiz, M.,Sayagh, M., Adams, B. And Hindle, A. (2016). "
                               },
                               {
-                                    text: "energy profiles of java collections classes, ",
-                                    link: "#",
+                                    text: "Energy profiles of java collections classes, ",
+                                    link: "https://msayagh.github.io/pdf/ICSE2016.pdf",
 
                               },
                               {
@@ -184,7 +184,7 @@ const publications = {
 
                               },
                               {
-                                    text: "(acm sigsoft distinguished paper award)"
+                                    text: "(Acm sigsoft distinguished paper award)"
                               }
                         ],
                         [
@@ -197,8 +197,8 @@ const publications = {
                                     text: "Sayagh, M. And Adams, B. (2015)."
                               },
                               {
-                                    text: "multi-layer software configuration - empirical study on wordpress",
-                                    link: "#",
+                                    text: "Multi-layer software configuration - empirical study on wordpress",
+                                    link: "https://msayagh.github.io/pdf/SCAM2015.pdf",
 
                               },
                               {
