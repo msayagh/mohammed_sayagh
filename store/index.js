@@ -74,7 +74,7 @@ const database = () => {
                         email: "sayaghmohammed@gmail.com",
                         paragraphe: [
                               {
-                                    text: "I'm an assistant professor at Ecole Technologie Supérieur - Québec University. Before that, I was working as a PostDoc fellow in"
+                                    text: "I am an assistant professor at Ecole Technologie Supérieur - Québec University. Before that, I was working as a PostDoc fellow in"
                               },
                               {
                                     text: "the Software Analysis and Intelligence Lab (SAIL)",
@@ -132,6 +132,7 @@ const database = () => {
                                           month: '08',
                                           year: '2022'
                                     },
+
                                     text: 'I am currently looking for motivated and hard working PhD and Masters students.',
                                     button: [{
                                           // J'ai fais en sorte que ca marche pour un seul bouton
