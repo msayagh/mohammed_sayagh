@@ -12,6 +12,7 @@ import other_activities from './other-activities';
 const database = () => {
       return new Vuex.Store({
             state: {
+                  
                   maintenance: {
                         state: true,
                         menuMobileState: false,
