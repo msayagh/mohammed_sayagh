@@ -6,7 +6,7 @@
       .content.sous-container(v-for="(workshops, index) in workshops.content" :key="index")
         h3
           | {{ workshops.titre }}
-        ul
+        ul.listContent
           li(v-for="(workshops, id) in workshops.list" :key="id")
             | {{ workshops }}
 </template>

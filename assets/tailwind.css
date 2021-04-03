@@ -20,7 +20,7 @@
  h3{
   @apply text-lg leading-10 tracking-widest capitalize;
  }
- ul{
+ ul.listContent{
    @apply space-y-4 !important;
  }
  li{

@@ -3,7 +3,7 @@
     h2 {{ pcMember.titre }}
     separateur
     .content
-      ul
+      ul.listContent
         li(v-for="(pcMember, index) in pcMember.paragraphe" :key="index")
           a(:href="pcMember.link")
             | {{pcMember.text}}

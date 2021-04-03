@@ -2,7 +2,7 @@
   section
     h2 {{ reviewerFor.titre }}
     separateur
-    ul.content
+    ul.content.listContent
       li(v-for="(reviewerForPara, id) in reviewerFor.paragraphe" :key="id")
         a(:href="reviewerForPara.link" target="_blank")
           |  {{ reviewerForPara.text }} 
