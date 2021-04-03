@@ -12,6 +12,9 @@ script:
   - npm run build
   - npm run generate
   
+before_deploy:
+  - cp -r assests/pdf dist/pdf
+  
 deploy:
   provider: pages
   skip-cleanup: true
