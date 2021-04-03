@@ -20,6 +20,9 @@
  h3{
   @apply text-lg leading-10 tracking-widest capitalize;
  }
+ ul{
+   @apply space-y-4 !important;
+ }
  li{
    @apply font-semibold tracking-widest capitalize text-black_9;
  }
