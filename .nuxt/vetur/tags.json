@@ -1,0 +1,44 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "ContentMainContainer": {
+    "description": "Auto imported from components/content/mainContainer.vue"
+  },
+  "ContentOtherActivities": {
+    "description": "Auto imported from components/content/otherActivities.vue"
+  },
+  "ContentOtherPublications": {
+    "description": "Auto imported from components/content/otherPublications.vue"
+  },
+  "ContentPcMember": {
+    "description": "Auto imported from components/content/pcMember.vue"
+  },
+  "ContentPublications": {
+    "description": "Auto imported from components/content/publications.vue"
+  },
+  "ContentReviewerFor": {
+    "description": "Auto imported from components/content/reviewerFor.vue"
+  },
+  "ContentTeaching": {
+    "description": "Auto imported from components/content/teaching.vue"
+  },
+  "ContentTechnicalReports": {
+    "description": "Auto imported from components/content/technicalReports.vue"
+  },
+  "ContentWorkshops": {
+    "description": "Auto imported from components/content/workshops.vue"
+  },
+  "MainHome": {
+    "description": "Auto imported from components/main/home.vue"
+  },
+  "UiElementMenuMobile": {
+    "description": "Auto imported from components/uiElement/menuMobile.vue"
+  },
+  "UiElementPopupInfo": {
+    "description": "Auto imported from components/uiElement/popupInfo.vue"
+  },
+  "UiElementSeparateur": {
+    "description": "Auto imported from components/uiElement/separateur.vue"
+  }
+}

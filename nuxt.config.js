@@ -1,13 +1,10 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
-  // router: {
-  //   base: '/mohamed_sayagh/'
-  // },
   // server: {
   // port: 5000
   // },
   target: 'static',
-  router: { base: '/mohamed_sayagh/' },
+  router: { base: '' },
   head: {
     titre: 'mohamed_sayagh',
     titleTemplate: 'Dr.MOHAMMED SAYAGH',
