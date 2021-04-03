@@ -127,12 +127,11 @@ const database = () => {
                               {
                                     state: true,
                                     date: {
-                                          state: true,
+                                          state: false,
                                           day: '28',
                                           month: '08',
                                           year: '2022'
                                     },
-
                                     text: 'I am currently looking for motivated and hard working PhD and Masters students.',
                                     button: [{
                                           // J'ai fais en sorte que ca marche pour un seul bouton
