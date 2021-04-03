@@ -6,7 +6,7 @@
     :key="index"
   )
     .text-content
-      p.date
+      p.date(v-if="element_popup.date.state")
         | {{ element_popup.date.day }} / {{ element_popup.date.month }} / {{ element_popup.date.year }}
       p.text
         | {{ element_popup.text }}
