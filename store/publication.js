@@ -14,10 +14,6 @@ const publications = {
                               },
                               {
                                     text: ", Transactions on Software Engineering (TSE) (to appear)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
                               }
                         ],
                         [
