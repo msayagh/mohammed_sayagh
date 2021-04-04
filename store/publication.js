@@ -26,10 +26,6 @@ const publications = {
                               },
                               {
                                     text: ", ACM Transactions on Software Engineering and Methodology (TOSEM)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
                               }
                         ],
                         [
@@ -42,12 +38,7 @@ const publications = {
                               },
                               {
                                     text: ", Empirical Software Engineering (EMSE)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
-                              }
-                        ],
+                              }                        ],
                         [
                               {
                                     text: "Sayagh M., Hassan, AE. (2020)."
@@ -58,10 +49,6 @@ const publications = {
                               },
                               {
                                     text: ", Transactions on Software Engineering (TSE)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
                               }
                         ],
                         [
@@ -74,12 +61,7 @@ const publications = {
                               },
                               {
                                     text: "Transactions on Software Engineering (TSE)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
-                              }
-                        ],
+                              }                        ],
                         [
                               {
                                     text: "Lee D., Rajbahadur, GK., Lin D., Sayagh M., Bezemer, CP., Hassan, AE. (2020)."
@@ -90,10 +72,6 @@ const publications = {
                               },
                               {
                                     text: "Empirical Software Engineering (EMSE)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
                               }
                         ],
                         [
@@ -106,10 +84,6 @@ const publications = {
                               },
                               {
                                     text: "Empirical Software Engineering (EMSE)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "https://msayagh.github.io/",
                               }
                         ],
                         [
@@ -122,10 +96,6 @@ const publications = {
                               },
                               {
                                     text: "Transactions on software engineering(TSE)."
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "#",
                               }
                         ],
                         [
@@ -138,10 +108,6 @@ const publications = {
                               },
                               {
                                     text: ", in proceedings of the 17th ieee international working conference on source code analysis and manipulation, scam (shanghai, china). (acceptance ratio: 14/31=45%) "
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "#",
                               }
                         ],
                         [
@@ -155,11 +121,6 @@ const publications = {
                               },
                               {
                                     text: ", in proceedings of the 39th international conference on software engineering, icse (buenos aires, argentina). (acceptance ratio: 68/398=17%)"
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "#",
-
                               }
                         ],
                         [
@@ -175,12 +136,7 @@ const publications = {
                                     text: "in proceedings of the 38th international conference on software engineering, icse (austin, tx, us). (acceptance ratio: 101/530=19%)"
                               },
                               {
-                                    text: "bibtex",
-                                    link: "#",
-
-                              },
-                              {
-                                    text: "(Acm sigsoft distinguished paper award)"
+                                    text: "(ACM SIGSOFT Distinguished Paper Award)"
                               }
                         ],
                         [
@@ -199,20 +155,6 @@ const publications = {
                               },
                               {
                                     text: ", in proceedings of the 15th ieee international working conference on source code analysis and manipulation, scam (bremen, germany). (acceptance ratio: 24/68=35%) "
-                              },
-                              {
-                                    text: "bibtex",
-                                    link: "#",
-
-                              },
-                              { text: "[" },
-                              {
-                                    text: "aditionnal figures",
-                                    link: "#",
-
-                              },
-                              {
-                                    text: "]"
                               }
                         ],
                   ],
