@@ -26,7 +26,7 @@ const publications = {
                               },
                               {
                                     text: "An Empirical Study of the Impact of Data Splitting Decisions on the Performance of AIOps Solutions",
-                                    link: "https://msayagh.github.io/pdf/TOSEM2021.pdf",
+                                    link: "@/assets/pdf/TOSEM2021.pdf",
                               },
                               {
                                     text: ", ACM Transactions on Software Engineering and Methodology (TOSEM)."
@@ -42,7 +42,7 @@ const publications = {
                               },
                               {
                                     text: "Too many images on DockerHub! How different are images for the same system?",
-                                    link: "https://msayagh.github.io/pdf/EMSE2020_Dockerhub.pdf",
+                                    link: "@/assets/pdf/EMSE2020_Dockerhub.pdf",
                               },
                               {
                                     text: ", Empirical Software Engineering (EMSE)."
@@ -58,7 +58,7 @@ const publications = {
                               },
                               {
                                     text: "ConfigMiner: Identifying the Appropriate Configuration Options for Config-related User Questions by Mining Online Forums",
-                                    link: "https://msayagh.github.io/pdf/TSE2020_configminer.pdf",
+                                    link: "@/assets/pdf/TSE2020_configminer.pdf",
                               },
                               {
                                     text: ", Transactions on Software Engineering (TSE)."
