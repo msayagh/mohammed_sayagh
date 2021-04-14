@@ -4,6 +4,10 @@ const reviewer_for = {
                   titre: "Reviewer for",
                   paragraphe: [
                         {
+                              text: "IEEE Transactions on Software Engineering (TSE)",
+                              link: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32",
+                        },
+                        {
                               text: "ACM Transactions on Software Engineering and Methodology (TOSEM)",
                               link: "https://dl.acm.org/journal/tosem",
                         },
