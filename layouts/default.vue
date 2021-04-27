@@ -19,7 +19,7 @@
         .container-mail.sousgridBlue
           .element-mail
             .col-white
-            .email-container
+            .email-container.pb-2
               a.text-black_11(:href=`'mailto:' + content.email`)
                 | {{ content.email }}
       .nav.gridWhite
