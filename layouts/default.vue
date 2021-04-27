@@ -20,7 +20,7 @@
           .element-mail
             .col-white
             .email-container
-              p
+              a(:href=`'mailto:' + content.email`)
                 | {{ content.email }}
       .nav.gridWhite
         nav.nav-menu(v-if="!isMobile()")
