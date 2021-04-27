@@ -10,7 +10,7 @@
         | {{ element_popup.date.day }} / {{ element_popup.date.month }} / {{ element_popup.date.year }}
       p.text
         | {{ element_popup.text }}
-    p.button.content(
+    p.button.content.mb-1(
       v-for="(element_button, id) in element_popup.button",
       :key="id",
       v-if="element_button.state"
