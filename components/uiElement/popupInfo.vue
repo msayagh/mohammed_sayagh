@@ -15,7 +15,7 @@
       :key="id",
       v-if="element_button.state"
     )
-      a.link(href="element_button.buttonLink")
+      a.link(:href="element_button.buttonLink")
         | {{ element_button.buttonText }}
 </template>
 
