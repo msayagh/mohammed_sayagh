@@ -6,10 +6,22 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Ibrahim, MH., Sayagh M., Hassan, AE., (2021)."
+                              },
+                              {
+                                    text: "A Study of How Docker Compose is Used to Compose Multi-component Systems",
+                                    link: "https://msayagh.github.io/",
+                              },
+                              {
+                                    text: ", Empirical Software Engineering (EMSE) (to appear)."
+                              }
+                        ],
+                        [
+                              {
                                     text: "Yao, K., Sayagh M., Weiyi, S., Hassan, AE., (2021)."
                               },
                               {
-                                    text: " Improving state-of-the-art compression techniques for log management tools",
+                                    text: "Improving state-of-the-art compression techniques for log management tools",
                                     link: "https://msayagh.github.io/",
                               },
                               {
