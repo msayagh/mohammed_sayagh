@@ -12,7 +12,7 @@ const pc_member = {
                               link: "https://saner2020.csd.uwo.ca/",
                         },
                         {
-                              text: "CASCON 2019 and 2020.",
+                              text: "CASCON 2019, 2020, and 2021.",
                               link: "https://www-01.ibm.com/ibm/cas/cascon/",
                         },
                         {
