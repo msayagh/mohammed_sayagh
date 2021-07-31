@@ -9,11 +9,11 @@ const publications = {
                                     text: "Ibrahim, MH., Sayagh M., Hassan, AE., (2021)."
                               },
                               {
-                                    text: "A Study of How Docker Compose is Used to Compose Multi-component Systems",
+                                    text: "A Study of How Docker Compose is Used to Compose Multi-component Systems,",
                                     link: "https://msayagh.github.io/",
                               },
                               {
-                                    text: ", Empirical Software Engineering (EMSE) (to appear)."
+                                    text: "Empirical Software Engineering (EMSE) (to appear)."
                               }
                         ],
                         [
@@ -21,11 +21,11 @@ const publications = {
                                     text: "Yao, K., Sayagh M., Weiyi, S., Hassan, AE., (2021)."
                               },
                               {
-                                    text: "Improving state-of-the-art compression techniques for log management tools",
+                                    text: "Improving state-of-the-art compression techniques for log management tools,",
                                     link: "https://msayagh.github.io/",
                               },
                               {
-                                    text: ", Transactions on Software Engineering (TSE) (to appear)."
+                                    text: "Transactions on Software Engineering (TSE) (to appear)."
                               }
                         ],
                         [
@@ -33,11 +33,11 @@ const publications = {
                                     text: "Lyu, Y., Li, H., Sayagh, M., Jiang, ZM., Hassan, AE. (2021)."
                               },
                               {
-                                    text: "An Empirical Study of the Impact of Data Splitting Decisions on the Performance of AIOps Solutions",
+                                    text: "An Empirical Study of the Impact of Data Splitting Decisions on the Performance of AIOps Solutions,",
                                     link: "https://msayagh.github.io/pdf/TOSEM2021.pdf",
                               },
                               {
-                                    text: ", ACM Transactions on Software Engineering and Methodology (TOSEM)."
+                                    text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
                               }
                         ],
                         [
@@ -49,18 +49,18 @@ const publications = {
                                     link: "https://msayagh.github.io/pdf/EMSE2020_Dockerhub.pdf",
                               },
                               {
-                                    text: ", Empirical Software Engineering (EMSE)."
+                                    text: "Empirical Software Engineering (EMSE)."
                               }                        ],
                         [
                               {
                                     text: "Sayagh M., Hassan, AE. (2020)."
                               },
                               {
-                                    text: "ConfigMiner: Identifying the Appropriate Configuration Options for Config-related User Questions by Mining Online Forums",
+                                    text: "ConfigMiner: Identifying the Appropriate Configuration Options for Config-related User Questions by Mining Online Forums,",
                                     link: "https://msayagh.github.io/pdf/TSE2020_configminer.pdf",
                               },
                               {
-                                    text: ", Transactions on Software Engineering (TSE)."
+                                    text: "Transactions on Software Engineering (TSE)."
                               }
                         ],
                         [
