@@ -88,7 +88,7 @@ const database = () => {
                                     link: "http://queensu.ca/"
                               },
                               {
-                                    text: "under the suppervision of"
+                                    text: "under the supervision of"
                               },
                               {
                                     text: "Prof. Ahmed E. Hassan",
@@ -98,7 +98,7 @@ const database = () => {
                                     text: "I obtained my Ph.D. from"
                               },
                               {
-                                    text: "the Maintenance, Construction, and Intellligence of Software lab (MCIS) ",
+                                    text: "the Maintenance, Construction, and Intelligence of Software lab (MCIS) ",
                                     link: "http://mcis.cs.queensu.ca/"
                               },
                               {
