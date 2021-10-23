@@ -4,11 +4,11 @@ const pc_member = {
                   titre: "PC MEMBER",
                   paragraphe: [
                         {
-                              text: "MSR 2021.",
+                              text: "MSR 2021, 2022",
                               link: "https://2021.msrconf.org/",
                         },
                         {
-                              text: "SANER 2020.",
+                              text: "SANER 2020 and 2022",
                               link: "https://saner2020.csd.uwo.ca/",
                         },
                         {
