@@ -91,7 +91,7 @@ const database = () => {
                                     text: "under the supervision of"
                               },
                               {
-                                    text: "Prof. Ahmed E. Hassan",
+                                    text: "Prof. Ahmed E. Hassan.",
                                     link: "http://research.cs.queensu.ca/home/ahmed/home/"
                               },
                               {
@@ -116,7 +116,7 @@ const database = () => {
                                     link: "http://mcis.cs.queensu.ca/bram.html"
                               },
                               {
-                                    text: "I have a wide range of research interests that are related to software empirical studies. My main focus is related to software variability in multi-component softawre systems. I have applied different qualitative and quantitative empricial studies techniques to my research, such as mining software repositories (e.g., source code repositories, online forums, and DockerHub), source code analysis (e.g., Slicing), and machine learning."
+                                    text: "I have a wide range of research interests that are related to empirical software engineering. My main research focus is related to the DevOps practices (e.g., configuration, log analysis) for multi-component software systems (e.g., microservices and distributed systems). My research is based on mining software repositories (e.g., Git, DockerHub, online forums, ...) and applying different qualitative and quantitative techniques (e.g., statistical analysis, machine learning, source code analysis) with the goal of recommending best practices and recommendation systems to improve software quality and reduce development and deployment costs."
                               },
                         ]
 
