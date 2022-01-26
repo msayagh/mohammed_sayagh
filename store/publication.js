@@ -22,10 +22,10 @@ const publications = {
                               },
                               {
                                     text: "Improving state-of-the-art compression techniques for log management tools,",
-                                    link: "https://msayagh.github.io/",
+                                    link: "https://msayagh.github.io/pdf/LogBlock_TSE_2021.pdf",
                               },
                               {
-                                    text: "Transactions on Software Engineering (TSE) (to appear)."
+                                    text: "Transactions on Software Engineering (TSE)."
                               }
                         ],
                         [
