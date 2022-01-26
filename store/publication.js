@@ -10,10 +10,10 @@ const publications = {
                               },
                               {
                                     text: "A Study of How Docker Compose is Used to Compose Multi-component Systems,",
-                                    link: "https://msayagh.github.io/",
+                                    link: "https://msayagh.github.io/pdf/EMSE_2021_docker_compose.pdf",
                               },
                               {
-                                    text: "Empirical Software Engineering (EMSE) (to appear)."
+                                    text: "Empirical Software Engineering (EMSE)."
                               }
                         ],
                         [
