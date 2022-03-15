@@ -6,6 +6,18 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Hassan, AE., (2022)."
+                              },
+                              {
+                                    text: "An empirical Study on Log Level prediction for Multi-component Systems,",
+                                    link: "https://msayagh.github.io/pdf/TSE_2022_log_multicomp.pdf",
+                              },
+                              {
+                                    text: "Transactions on Software Engineering (TSE)."
+                              }
+                        ],
+                        [
+                              {
                                     text: "Ibrahim, MH., Sayagh M., Hassan, AE., (2021)."
                               },
                               {
