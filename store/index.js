@@ -22,7 +22,7 @@ const database = () => {
                               state : false,
                         },
                         head: {
-                              title: 'DR.Mohamed SAYAGH',
+                              title: 'Dr. Mohammed SAYAGH',
                               meta: [{
                                     hid: 'site for DR.Mohamed SAYAGH',
                                     name: 'description',
