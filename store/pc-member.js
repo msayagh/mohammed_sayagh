@@ -4,6 +4,10 @@ const pc_member = {
                   titre: "PC MEMBER",
                   paragraphe: [
                         {
+                              text: "Promise'22 ",
+                              link: "https://promiseconf.github.io/2022/index.html",
+                        },
+                        {
                               text: "MSR 2021, 2022",
                               link: "https://2021.msrconf.org/",
                         },
