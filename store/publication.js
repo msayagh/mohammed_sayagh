@@ -6,10 +6,22 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Lin, J., Sayagh M., Hassan, AE., (2022)."
+                              },
+                              {
+                                    text: "The Co-evolution of the WordPress Platform and its Plugins (to appear),",
+                                    link: "",
+                              },
+                              {
+                                    text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
+                              }
+                        ],
+                        [
+                              {
                                     text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Hassan, AE., (2022)."
                               },
                               {
-                                    text: "An empirical Study on Log Level prediction for Multi-component Systems,",
+                                    text: "An Empirical Study on Log Level Prediction for Multi-component Systems,",
                                     link: "https://msayagh.github.io/pdf/TSE_2022_log_multicomp.pdf",
                               },
                               {
