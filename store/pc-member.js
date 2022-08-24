@@ -4,8 +4,16 @@ const pc_member = {
                   titre: "PC MEMBER",
                   paragraphe: [
                         {
-                              text: "SCAM 2022",
+                              text: "SCAM 2022 - Research track",
                               link: "http://www.ieee-scam.org/2022/",
+                        },
+                        {
+                              text: "SCAM 2022 - NIER track",
+                              link: "http://www.ieee-scam.org/2022/",
+                        },
+                        {
+                              text: "ICSME 2022 - Doctoral Symposium track",
+                              link: "https://cyprusconferences.org/icsme2022/call-for-doctoral-symposium/",
                         },
                         {
                               text: "Promise'22 ",
@@ -20,7 +28,7 @@ const pc_member = {
                               link: "https://saner2020.csd.uwo.ca/",
                         },
                         {
-                              text: "CASCON 2019, 2020, and 2021.",
+                              text: "CASCON 2019, 2020, 2021, and 2022.",
                               link: "https://www-01.ibm.com/ibm/cas/cascon/",
                         },
                         {
