@@ -16,7 +16,11 @@ const reviewer_for = {
                               link: "https://link.springer.com/journal/10664",
                         },
                         {
-                              text: "Journal of Systems and Software",
+                              text: "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+                              link: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858",
+                        },
+                        {
+                              text: "Journal of Systems and Software (JSS)",
                               link: "https://ees.elsevier.com/jss/default.asp",
                         },
                         {
