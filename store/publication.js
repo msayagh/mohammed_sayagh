@@ -9,8 +9,8 @@ const publications = {
                                     text: "Lin, J., Sayagh M., Hassan, AE., (2022)."
                               },
                               {
-                                    text: "The Co-evolution of the WordPress Platform and its Plugins (to appear),",
-                                    link: "",
+                                    text: "The Co-evolution of the WordPress Platform and its Plugins,",
+                                    link: "https://msayagh.github.io/pdf/TOSEM_2022_plugins.pdf",
                               },
                               {
                                     text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
