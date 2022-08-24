@@ -5,6 +5,26 @@ const teaching = {
                   paragraphe: [
                         [
                               {
+                                    titre: "Fall 2022:"
+                              },
+                              [
+                                    [
+                                          {
+                                                text: "Lecturer of the courses:"
+                                          },
+                                          {
+                                                text: "LOG680: Intorduction to the DevOps approach",
+                                                link: "https://www.etsmtl.ca/etudes/cours/log680/",
+                                          },
+                                          {
+                                                text: "MGL869D: L'ingénierie de mise en production des versions logiciel",
+                                                link: "https://www.etsmtl.ca/etudes/cours/MGL869D/",
+                                          }
+                                    ]
+                              ]
+                        ],
+                        [
+                              {
                                     titre: "Winter 2021:"
                               },
                               [
