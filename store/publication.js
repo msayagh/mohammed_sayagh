@@ -6,6 +6,18 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Batoun, MA., Yung, KL., Tian, Y., Sayagh M., (2023)."
+                              },
+                              {
+                                    text: "An Empirical Study on Github Pull Requests' Reactions (to appear),",
+                                    link: "",
+                              },
+                              {
+                                    text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
+                              }
+                        ],
+                        [
+                              {
                                     text: "Lin, J., Sayagh M., Hassan, AE., (2022)."
                               },
                               {
