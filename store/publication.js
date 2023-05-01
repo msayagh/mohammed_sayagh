@@ -181,7 +181,7 @@ const publications = {
 
                               },
                               {
-                                    text: "in proceedings of the 38th international conference on software engineering, icse (austin, tx, us). (acceptance ratio: 101/530=19%)"
+                                    text: "in proceedings of the 38th international conference on software engineering, ICSE (Austin, tx, us). (acceptance ratio: 101/530=19%)"
                               },
                               {
                                     text: "(ACM SIGSOFT Distinguished Paper Award)"
@@ -189,7 +189,7 @@ const publications = {
                         ],
                         [
                               {
-                                    text: "Sayagh, M. 'tracking misconfiguration errors in multi - layered architecture systems'. doctoral symposium track of the 23rd ieee international conference on software analysis, evolution, and reengineering (saner 2016)."
+                                    text: "Sayagh, M. 'tracking misconfiguration errors in multi - layered architecture systems'. Doctoral symposium track of the 23rd ieee international conference on software analysis, evolution, and reengineering (saner 2016)."
                               }
                         ],
                         [
