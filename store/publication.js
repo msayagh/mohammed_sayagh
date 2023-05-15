@@ -18,7 +18,7 @@ const publications = {
                         ],
                         [
                               {
-                                    text: "Lin, J., Sayagh M., Hassan, AE., (2022)."
+                                    text: "Lin, J., Sayagh M., Hassan, AE., (2022). "
                               },
                               {
                                     text: "The Co-evolution of the WordPress Platform and its Plugins,",
