@@ -6,7 +6,7 @@ const publications = {
                   content: [
                         [
                               {
-                                    text: "Batoun, MA., Yung, KL., Tian, Y., Sayagh M., (2023). "
+                                    text: "Batoun, MA., Yung, KL., Tian, Y., Sayagh M., (2023). (To appear). "
                               },
                               {
                                     text: "An Empirical Study on Github Pull Requests' Reactions,",
