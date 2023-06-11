@@ -6,6 +6,18 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Bessghaier, N., Sayagh, M., Ouni, A., Mkaouer, MW., (2023). (To appear). "
+                              },
+                              {
+                                    text: "What Constitutes the Deployment and Run-time Configuration System? An Empirical Study on OpenStack Projects,",
+                                    link: "",
+                              },
+                              {
+                                    text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
+                              }
+                        ],
+                        [
+                              {
                                     text: "Batoun, MA., Yung, KL., Tian, Y., Sayagh M., (2023). (To appear). "
                               },
                               {
