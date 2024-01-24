@@ -3,7 +3,31 @@ const publications = {
             publications: {
                   titre: "Publications",
                   type: "list-paragraphe",
-                  content: [
+                  content: [                        
+                        [
+                              {
+                                    text: "Batoun, MA., Sayagh, M., Aghili, R., Ouni, A., Li, H., (2024). (To appear). "
+                              },
+                              {
+                                    text: "A Literature Review and Existing Challenges on Software Logging Practices - From the Creation to the Analysis of Software Logs,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Empirical Software Engineering (EMSE)."
+                              }
+                        ],
+                        [
+                              {
+                                    text: "Chen, J., Ding, Z., Tang, Y., Sayagh, M., Li, H., Adams, B., Shang, W., (To appear). "
+                              },
+                              {
+                                    text: "IoPV: On Inconsistent Option Performance Variations,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023)."
+                              }
+                        ],
                         [
                               {
                                     text: "Bessghaier, N., Sayagh, M., Ouni, A., Mkaouer, MW., (2023). (To appear). "
