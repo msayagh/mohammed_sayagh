@@ -3,7 +3,43 @@ const publications = {
             publications: {
                   titre: "Publications",
                   type: "list-paragraphe",
-                  content: [                        
+                  content: [
+                        [
+                              {
+                                    text: "Arabat, A., Sayagh, M., (2024). (To appear). "
+                              },
+                              {
+                                    text: "An Empirical Study on Cross-component Dependent Changes - A case Study on the Components of OpenStack,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Empirical Software Engineering (EMSE)."
+                              }
+                        ], 
+                        [
+                              {
+                                    text: "Bessghaier, N., Begoug, M., Mebarki, C., Ouni, A., Sayagh, M. and Mkaouer, MW., (2024). (To appear). "
+                              },
+                              {
+                                    text: "On the Prevalence, Co-occurrence, and Impact of Infrastructure-as-Code Smells,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Published in the IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2024)."
+                              }
+                        ],
+                        [
+                              {
+                                    text: "Batoun, MA., Sayagh, M., Ouni, A., (2024). (To appear). "
+                              },
+                              {
+                                    text: "How Much Logs Does My Source Code File Need? Learning to Predict the Density of Logs,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Published in the International Conference on Evaluation and Assessment in Software Engineering (EASE 2024)."
+                              }
+                        ],
                         [
                               {
                                     text: "Batoun, MA., Sayagh, M., Aghili, R., Ouni, A., Li, H., (2024). (To appear). "
@@ -18,7 +54,7 @@ const publications = {
                         ],
                         [
                               {
-                                    text: "Chen, J., Ding, Z., Tang, Y., Sayagh, M., Li, H., Adams, B., Shang, W., (To appear). "
+                                    text: "Chen, J., Ding, Z., Tang, Y., Sayagh, M., Li, H., Adams, B., Shang, W., (2023). (To appear). "
                               },
                               {
                                     text: "IoPV: On Inconsistent Option Performance Variations,",
