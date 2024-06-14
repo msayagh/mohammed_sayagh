@@ -6,6 +6,18 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Harbaoui, F., Sayagh, M., Abdalkareem, R., (2024). (To appear). "
+                              },
+                              {
+                                    text: "On the Impact of Draft Pull Requests on Accelerating Feedback,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Accepted in The International Conference on Software Maintenance and Evolution (ICSME 2024)."
+                              }
+                        ], 
+                        [
+                              {
                                     text: "Arabat, A., Sayagh, M., (2024). (To appear). "
                               },
                               {
@@ -37,7 +49,7 @@ const publications = {
                                     link: "",
                               },
                               {
-                                    text: "Published in the International Conference on Evaluation and Assessment in Software Engineering (EASE 2024)."
+                                    text: "Accepted in the International Conference on Evaluation and Assessment in Software Engineering (EASE 2024)."
                               }
                         ],
                         [
