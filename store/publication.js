@@ -6,6 +6,18 @@ const publications = {
                   content: [
                         [
                               {
+                                    text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Adams, B., Hassan, AE., (2024). (To appear). "
+                              },
+                              {
+                                    text: "The impact of Concept drift and Data leakage on Log Level Prediction Models,",
+                                    link: "",
+                              },
+                              {
+                                    text: "Empirical Software Engineering (EMSE)."
+                              }
+                        ], 
+                        [
+                              {
                                     text: "Harbaoui, F., Sayagh, M., Abdalkareem, R., (2024). (To appear). "
                               },
                               {
