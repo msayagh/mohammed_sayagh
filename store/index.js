@@ -71,7 +71,7 @@ const database = () => {
                               src: "~/assets/image_mohammed.png",
                               alt: ""
                         },
-                        email: "sayaghmohammed@gmail.com",
+                        email: "mohammed.sayagh@etsmtl.ca",
                         paragraphe: [
                               {
                                     text: "I am an assistant professor at Ecole Technologie Supérieur - Québec University. Before that, I was working as a PostDoc fellow in"
@@ -138,7 +138,7 @@ const database = () => {
                                           // Je vais gerer pour deux bouton ou meme plus en cas de necessite
                                           state: true,
                                           buttonText: 'contact me',
-                                          buttonLink: 'mailto:sayaghmohammed@gmail.com'
+                                          buttonLink: 'mailto:mohammed.sayagh@etsmtl.ca'
                                     },],
                               },
                         ]
