@@ -6,11 +6,11 @@ const publications = {
                   content: [
                         [
                               {
-                                    text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Adams, B., Hassan, AE., (2024). (To appear). "
+                                    text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Adams, B., Hassan, AE., (2024). "
                               },
                               {
                                     text: "The impact of Concept drift and Data leakage on Log Level Prediction Models,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Youssef-EMSE-2024.pdf",
                               },
                               {
                                     text: "Empirical Software Engineering (EMSE)."
@@ -18,11 +18,11 @@ const publications = {
                         ], 
                         [
                               {
-                                    text: "Harbaoui, F., Sayagh, M., Abdalkareem, R., (2024). (To appear). "
+                                    text: "Harbaoui, F., Sayagh, M., Abdalkareem, R., (2024). "
                               },
                               {
                                     text: "On the Impact of Draft Pull Requests on Accelerating Feedback,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Firas-ICSME-2024.pdf",
                               },
                               {
                                     text: "Accepted in The International Conference on Software Maintenance and Evolution (ICSME 2024)."
@@ -30,11 +30,11 @@ const publications = {
                         ], 
                         [
                               {
-                                    text: "Arabat, A., Sayagh, M., (2024). (To appear). "
+                                    text: "Arabat, A., Sayagh, M., (2024). "
                               },
                               {
                                     text: "An Empirical Study on Cross-component Dependent Changes - A case Study on the Components of OpenStack,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Arabat-EMSE-2024.pdf",
                               },
                               {
                                     text: "Empirical Software Engineering (EMSE)."
@@ -70,7 +70,7 @@ const publications = {
                               },
                               {
                                     text: "A Literature Review and Existing Challenges on Software Logging Practices - From the Creation to the Analysis of Software Logs,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Batoun-EMSE-2024.pdf",
                               },
                               {
                                     text: "Empirical Software Engineering (EMSE)."
@@ -78,11 +78,11 @@ const publications = {
                         ],
                         [
                               {
-                                    text: "Chen, J., Ding, Z., Tang, Y., Sayagh, M., Li, H., Adams, B., Shang, W., (2023). (To appear). "
+                                    text: "Chen, J., Ding, Z., Tang, Y., Sayagh, M., Li, H., Adams, B., Shang, W., (2023). "
                               },
                               {
                                     text: "IoPV: On Inconsistent Option Performance Variations,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Jinfu-FSE-2023.pdf",
                               },
                               {
                                     text: "Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023)."
@@ -90,11 +90,11 @@ const publications = {
                         ],
                         [
                               {
-                                    text: "Bessghaier, N., Sayagh, M., Ouni, A., Mkaouer, MW., (2023). (To appear). "
+                                    text: "Bessghaier, N., Sayagh, M., Ouni, A., Mkaouer, MW., (2023). "
                               },
                               {
                                     text: "What Constitutes the Deployment and Run-time Configuration System? An Empirical Study on OpenStack Projects,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Narjess-TOSEM-2023.pdf",
                               },
                               {
                                     text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
@@ -106,7 +106,7 @@ const publications = {
                               },
                               {
                                     text: "An Empirical Study on Github Pull Requests' Reactions,",
-                                    link: "",
+                                    link: "https://msayagh.github.io/pdf/Batoun-TOSEM-2023.pdf",
                               },
                               {
                                     text: "ACM Transactions on Software Engineering and Methodology (TOSEM)."
