@@ -66,7 +66,7 @@ const publications = {
                         ],
                         [
                               {
-                                    text: "Batoun, MA., Sayagh, M., Aghili, R., Ouni, A., Li, H., (2024). (To appear). "
+                                    text: "Batoun, MA., Sayagh, M., Aghili, R., Ouni, A., Li, H., (2024). "
                               },
                               {
                                     text: "A Literature Review and Existing Challenges on Software Logging Practices - From the Creation to the Analysis of Software Logs,",
