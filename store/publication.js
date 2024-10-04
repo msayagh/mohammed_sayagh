@@ -6,7 +6,7 @@ const publications = {
                   content: [
                         [
                               {
-                                    text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Adams, B., Hassan, AE., (2024). "
+                                    text: "Ouatiti, YE., Sayagh M., Kerzazi, N., Adams, B., Hassan, AE., (2024)."
                               },
                               {
                                     text: "The impact of Concept drift and Data leakage on Log Level Prediction Models,",
